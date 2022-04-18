@@ -45,7 +45,6 @@ public class Author {
                 ", country='" + country + '\'' +
                 ", isAlive=" + isAlive +
                 (isAlive ? ", age=" + age : "") +
-                ", books=" + books +
                 '}';
     }
 }
